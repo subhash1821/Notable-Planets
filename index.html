@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exoplanet Quiz Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        #end-button-container {
+            text-align: right;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body background="img5.jpg" style="background-color: #3f9ab8; color: #fffafa;" align="center">
+    <div class="container rainbow">
+        <button id="start-button" class="rainbow-hover">Start</button>
+        <div id="level-container" style="display: none;">
+            <h2 id="level-title" class="rainbow-text"></h2>
+            <div id="study-mode" style="display: none;" class="rainbow">
+                <h3 class="rainbow-text">Study Points:</h3>
+                <ul id="study-points"></ul>
+                <button id="quiz-button" style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: none; padding: 10px 20px; font-size: 16px; cursor: pointer;">Enter Quiz Mode</button>
+            </div>
+            <div id="quiz-mode" style="display: none;" class="rainbow">
+                <h3 class="rainbow-text">Quiz:</h3>
+                <p id="question" class="rainbow-text"></p>
+                <ul id="options"></ul>
+                <p id="result" class="rainbow-text"></p>
+            </div>
+            <div id="end-button-container" style="display: none;">
+                <button id="end-button" class="rainbow-hover">END OF LEVEL</button>
+            </div>
+        </div>
+        <div id="score-container" style="display: none;" class="rainbow">
+            <h2 class="rainbow-text">Score:</h2>
+            <p id="score" class="rainbow-text"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+

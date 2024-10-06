@@ -1,0 +1,167 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3f9ab8;
+    color: #fffafa;
+    text-align: center;
+}
+
+/* Container Styles */
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Rainbow Styles */
+
+.rainbow {
+    background-image: linear-gradient(to right, #ff0000, #ffa500, #ffff00, #008000, #0000ff, #4b0082);
+    background-attachment: fixed;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.rainbow-hover:hover {
+    background-image: linear-gradient(to right, #ff0000, #ffa500, #ffff00, #008000, #0000ff, #4b0082);
+    background-attachment: fixed;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.rainbow-text {
+    color: black;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Level Styles */
+
+#level-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Study Mode Styles */
+
+#study-mode {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#study-points {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#study-points li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Quiz Mode Styles */
+
+#quiz-mode {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#question {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#options {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#options li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#options li:hover {
+    background-color: #ccc;
+}
+
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* End Button Styles */
+
+#end-button-container {
+    text-align: right;
+    margin-top: 20px;
+}
+
+#end-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Score Styles */
+
+#score-container {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#score {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Quiz Button Styles */
+
+#quiz-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Start Button Styles */
+
+#start-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
